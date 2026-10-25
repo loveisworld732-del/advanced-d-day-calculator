@@ -16,11 +16,13 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 ## 📥 How to Download & Run
 
 #### 1. For General Users (Recommended!)
-1. Scroll down to the **Assets** section at the bottom of this page and download **`D-Day_Calculator.exe`**.
+1. Scroll down to the **Assets** section at the bottom of this page and download **`dday.exe`**.
 2. Double-click the downloaded file and enjoy! (No Python installation required!)
 
 #### 2. For Developers (Source Code Execution)
 ```bash
 git clone https://github.com
+cd advanced-d-day-calculator
 python main.py
 ```
+
