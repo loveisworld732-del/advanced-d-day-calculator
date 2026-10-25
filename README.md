@@ -1,4 +1,4 @@
-# Welcome to the First Official Release of Advanced D-Day Calculator!
+# Welcome to the Advanced D-Day Calculator!
 
 I am so excited to share my GUI-based D-Day Calculator with the world! It features a beautiful, clean pastel-pink interface and offers advanced option tracking that standard calculators don't provide.
 
