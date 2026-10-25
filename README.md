@@ -1,26 +1,29 @@
-# Advanced D-Day Calculator
+# Welcome to the First Official Release of Advanced D-Day Calculator!
 
-# Advanced D-Day Calculator 📅✨
+I am so excited to share my GUI-based D-Day Calculator with the world! It features a beautiful, clean pastel-pink interface and offers advanced option tracking that standard calculators don't provide.
 
-A simple and advanced D-Day calculator built with Python to help you track your important days and countdowns easily!
+### Key Features
+* **Beautiful GUI Interface:** Clean, user-friendly, and modern design.
+* **Dual Language Support:** Fully available in both **English** and **Korean (한국어)!**
+* **Advanced Options:**
+  * Exclude weekends (주말 제외)
+  * Exclude public holidays (공휴일 제외)
+  * Anniversary style counting (시작일 포함 +1일)
+  * Elapsed days mode with no target date (목표 날짜 없음)
 
-## 🚀 Features
-* **Accurate Countdown:** Calculates the exact remaining days until your target date.
-* **Easy to Use:** Clean and straightforward Python execution.
-* **Custom Dynamic Tracking:** Perfect for tracking school exams, holidays, or special anniversaries!
+---
 
-## 🛠️ Requirements
-* Python 3.x
+### How to Download & Run (실행 방법)
 
-## 💻 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com
-   ```
-2. Run the program:
-   ```bash
-   python main.py
-   ```
+#### 1. For General Users (일반 사용자용 - 추천!)
+1. Download the **`D-Day_Calculator.exe`** file from the Assets below.
+2. Double-click the file and enjoy! (No Python installation required!)
+* *밑에 Assets 영역에 pyinstaller로 만든 .exe 파일을 꼭 업로드해 줘어!*
 
-## 📜 License
-This project is licensed under the MIT License.
+#### 2. For Developers (개발자용)
+```bash
+git clone https://github.com
+python main.py
+```
+---
+🎈 *Made with love by a 14-year-old developer from South Korea. If you like this project, please give it a ⭐ Star! Thank you!*
