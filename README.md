@@ -16,7 +16,7 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 ## 📥 How to Download & Run
 
 #### 1. For General Users (Recommended!)
-1. Scroll down to the **Assets** section at the bottom of this page and download **`dday.exe`**.
+1. Click **[👉 Download dday.exe 👈]()** to download the file directly!
 2. Double-click the downloaded file and enjoy! (No Python installation required!)
 
 #### 2. For Developers (Source Code Execution)
