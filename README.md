@@ -16,7 +16,8 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 ## 📥 How to Download & Run
 
 #### 1. For General Users (Recommended!)
-1. Click **[👉 Download dday.exe 👈]()** to download the file directly!
+1. Click the button below to download directly!
+[![Download dday.exe](https://shields.io)](https://github.com)
 2. Double-click the downloaded file and enjoy! (No Python installation required!)
 
 #### 2. For Developers (Source Code Execution)
