@@ -2,7 +2,7 @@
 
 I am so excited to share my GUI-based D-Day Calculator with the world! It features a beautiful, clean pastel-pink interface and offers advanced option tracking that standard calculators don't provide.
 
-### Key Features
+### ⭐ Key Features
 * **Beautiful GUI Interface:** Clean, user-friendly, and modern design.
 * **Dual Language Support:** Fully available in both **English** and **Korean (한국어)!**
 * **Advanced Options:**
