@@ -13,7 +13,7 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 
 ---
 
-### 📥 How to Download & Run
+## 📥 How to Download & Run
 
 #### 1. For General Users (Recommended!)
 1. Scroll down to the **Assets** section at the bottom of this page and download **`D-Day_Calculator.exe`**.
