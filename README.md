@@ -1,29 +1,26 @@
-# Welcome to the Advanced D-Day Calculator!
+# 고급 D-Day 계산기에 오신 것을 환영합니다!
 
-I am so excited to share my GUI-based D-Day Calculator with the world! It features a beautiful, clean pastel-pink interface and offers advanced option tracking that standard calculators don't provide.
+제가 만든 GUI 기반 D-Day 계산기를 세상에 공개하게 되어 정말 기쁩니다! 아름답고 깔끔한 파스텔 핑크색 인터페이스를 자랑하며, 일반 계산기에는 없는 고급 옵션 추적 기능을 제공합니다.
 
-### ⭐ Key Features
-* **Beautiful GUI Interface:** Clean, user-friendly, and modern design.
-* **Dual Language Support:** Fully available in both **English** and **Korean (한국어)!**
-* **Advanced Options:**
-  * Exclude weekends (주말 제외)
-  * Exclude public holidays (공휴일 제외)
-  * Anniversary style counting (시작일 포함 +1일)
-  * Elapsed days mode with no target date (목표 날짜 없음)
+## 🌟 주요 기능
+* **아름다운 GUI 인터페이스:** 깔끔하고 사용자 친화적인 현대적 디자인
+* **이중 언어 지원:** 영어와 한국어를 완벽하게 지원합니다! 🇰🇷🇺🇸
+* **고급 옵션:**
+    * 주말 제외 🗓️
+    * 공휴일 제외 🚫
+    * 기념일 스타일 카운팅 (시작일 포함 +1일) 💖
+    * 목표 날짜가 없는 경과일 모드 (기준일부터 오늘까지) ⏳
 
 ---
 
-### How to Download & Run (실행 방법)
+### 📥 다운로드 및 실행 방법
 
-#### 1. For General Users (일반 사용자용 - 추천!)
-1. Download the **`D-Day_Calculator.exe`** file from the Assets below.
-2. Double-click the file and enjoy! (No Python installation required!)
-* *밑에 Assets 영역에 pyinstaller로 만든 .exe 파일을 꼭 업로드해 줘어!*
+#### 1. 일반 사용자용 (추천!)
+1. 본 페이지 맨 아래에 있는 **Assets** 영역에서 `D-Day_Calculator.exe` 파일을 다운로드하세요.
+2. 다운로드한 파일을 더블클릭해서 즐겨보세요! (파이썬 설치가 필요 없습니다!)
 
-#### 2. For Developers (개발자용)
+#### 2. 개발자용 (소스 코드 실행)
 ```bash
 git clone https://github.com
 python main.py
 ```
----
-🎈 *Made with love by a 14-year-old developer from South Korea. If you like this project, please give it a ⭐ Star! Thank you!*
