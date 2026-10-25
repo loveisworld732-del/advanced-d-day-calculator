@@ -21,5 +21,5 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 
 ### 2. For Developers (Source Code Execution)
 bash
-**[👉 edit code 👈](https://github.com/loveisworld732-del/advanced-d-day-calculator/main/main.py)**
+**[👉 edit code 👈](https://github.dev/loveisworld732-del/advanced-d-day-calculator/main/main.py)**
 
