@@ -20,6 +20,4 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 2. click the downloaded `.exe` file to run it. No Python installation required!
 
 ### 2. For Developers (Source Code Execution)
-bash
-**[👉 edit code 👈](https://github.dev/loveisworld732-del/advanced-d-day-calculator/blob/main/main.py)**
-
+1. Click here to edit the code! **[👉 edit code 👈](https://github.dev/loveisworld732-del/advanced-d-day-calculator/blob/main/main.py)**
