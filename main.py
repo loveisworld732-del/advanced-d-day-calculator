@@ -149,7 +149,7 @@ class CuteDDayCalculator(QWidget):
     def initUI(self):
         # Set window properties and layout (창 기본 속성 및 메인 레이아웃 설정)
         self.setObjectName("mainWindow")
-        self.setWindowTitle('D-Day 계산기\n(D-Day Calculator)')
+        self.setWindowTitle('(D-Day Calculator)\nD-Day 계산기')
         self.setFixedSize(460, 690)
         self.setStyleSheet(CUTE_STYLE)
         
@@ -164,23 +164,23 @@ class CuteDDayCalculator(QWidget):
         card_layout.setSpacing(6)
         
         # Title label widget (앱 타이틀 라벨 생성)
-        title_label = QLabel('D-Day 계산기\n(D-Day Calculator)')
+        title_label = QLabel('(D-Day Calculator)\nD-Day 계산기')
         title_label.setObjectName("titleLabel")
         title_label.setAlignment(Qt.AlignCenter)
         card_layout.addWidget(title_label)
         
         # Title input section (D-Day 제목 입력 섹션)
-        title_input_label = QLabel('D-Day 제목\n(D-Day Title)')
+        title_input_label = QLabel('(D-Day Title)\nD-Day 제목')
         title_input_label.setObjectName("sectionLabel")
         card_layout.addWidget(title_input_label)
         
         self.title_input = QLineEdit()
         self.title_input.setObjectName("titleInput")
-        self.title_input.setPlaceholderText('예: 중간고사, 방학, 커플 기념일 (Ex: Midterm, Vacation, Couple)')
+        self.title_input.setPlaceholderText('Ex: Midterm, Vacation, Couple (예: 중간고사, 방학, 커플 기념일)')
         card_layout.addWidget(self.title_input)
         
         # Start date selection section (시작 날짜 선택 섹션)
-        start_title = QLabel('시작 날짜\n(Start Date)')
+        start_title = QLabel('(Start Date)\n시작 날짜')
         start_title.setObjectName("sectionLabel")
         card_layout.addWidget(start_title)
         
@@ -192,14 +192,14 @@ class CuteDDayCalculator(QWidget):
         card_layout.addLayout(start_layout)
         
         # Today start checkbox option (오늘부터 시작 체크박스 옵션)
-        self.today_check = QCheckBox('오늘부터 시작할래요!\n(Start from today!)')
+        self.today_check = QCheckBox('(Start from today!)\n오늘부터 시작할래요!')
         self.today_check.setChecked(True)
         self.today_check.toggled.connect(self.toggle_start_date)
         card_layout.addWidget(self.today_check)
         self.start_date_edit.setEnabled(False)
         
         # End date selection section (끝낼 날짜 선택 섹션)
-        end_title = QLabel('끝낼 날짜\n(End Date)')
+        end_title = QLabel('(End Date)\n끝낼 날짜')
         end_title.setObjectName("sectionLabel")
         card_layout.addWidget(end_title)
         
@@ -211,20 +211,20 @@ class CuteDDayCalculator(QWidget):
         card_layout.addLayout(end_layout)
         
         # Option checkboxes for calculation rules (계산 규칙 설정 체크박스들)
-        self.no_end_date_check = QCheckBox('목표 날짜 없음 (오늘까지 경과일 계산)\n(No target date - Calculate elapsed days)')
+        self.no_end_date_check = QCheckBox('(No target date - Calculate elapsed days)\n목표 날짜 없음 (오늘까지 경과일 계산)')
         self.no_end_date_check.toggled.connect(self.toggle_end_date)
         card_layout.addWidget(self.no_end_date_check)
         
-        self.include_first_day_check = QCheckBox('시작한 날짜부터 1일로 포함하기 (기념일 방식)\n(Include start date as day 1 - Anniversary style)')
+        self.include_first_day_check = QCheckBox('(Include start date as day 1 - Anniversary style)\n시작한 날짜부터 1일로 포함하기 (기념일 방식)')
         card_layout.addWidget(self.include_first_day_check)
         
-        self.exclude_weekend_check = QCheckBox('주말 제외\n(Exclude weekends)')
-        self.exclude_holiday_check = QCheckBox('공휴일 제외\n(Exclude holidays)')
+        self.exclude_weekend_check = QCheckBox('(Exclude weekends)\n주말 제외')
+        self.exclude_holiday_check = QCheckBox('(Exclude holidays)\n공휴일 제외')
         card_layout.addWidget(self.exclude_weekend_check)
         card_layout.addWidget(self.exclude_holiday_check)
         
         # Calculation button widget (D-Day 계산 실행 버튼)
-        self.calc_btn = QPushButton('D-Day 계산하기\n(Calculate D-Day)')
+        self.calc_btn = QPushButton('(Calculate D-Day)\nD-Day 계산하기')
         self.calc_btn.setObjectName("calcBtn")
         self.calc_btn.setCursor(Qt.PointingHandCursor) 
         self.calc_btn.clicked.connect(self.calculate_dday)
@@ -236,7 +236,7 @@ class CuteDDayCalculator(QWidget):
         result_layout = QVBoxLayout(result_card)
         result_layout.setContentsMargins(10, 8, 10, 8)
         
-        self.result_label = QLabel('버튼을 눌러 D-Day를 확인해보세요.\n(Click the button to check D-Day.)')
+        self.result_label = QLabel('(Click the button to check D-Day.)\n버튼을 눌러 D-Day를 확인해보세요.')
         self.result_label.setObjectName("resultLabel")
         self.result_label.setAlignment(Qt.AlignCenter)
         self.result_label.setWordWrap(True)
@@ -297,7 +297,7 @@ class CuteDDayCalculator(QWidget):
             end_date = self.end_date_edit.date().toPython()
             
         if start_date > end_date:
-            self.result_label.setText("앗! 시작 날짜가 끝나는 날짜보다 이후일 수 없어요 🥺\n(Oops! Start date cannot be after end date 🥺)")
+            self.result_label.setText("(Oops! Start date cannot be after end date 🥺)\n앗! 시작 날짜가 끝나는 날짜보다 이후일 수 없어요 🥺")
             return
             
         total_days = self._calculate_effective_days(start_date, end_date, exclude_weekend, exclude_holiday)
@@ -305,20 +305,20 @@ class CuteDDayCalculator(QWidget):
         if no_end_date:
             if include_first_day:
                 count_day = total_days
-                self.result_label.setText(f"{title_prefix}오늘로 {count_day}일째입니다! (D+{count_day})\n({title_prefix}Today is day {count_day}! (D+{count_day}))")
+                self.result_label.setText(f"({title_prefix}Today is day {count_day}! (D+{count_day}))\n{title_prefix}오늘로 {count_day}일째입니다! (D+{count_day})")
             else:
                 count_day = total_days - 1
-                self.result_label.setText(f"{title_prefix}시작일로부터 {count_day}일 지났습니다! (D+{count_day})\n({title_prefix}{count_day} days passed since start! (D+{count_day}))")
+                self.result_label.setText(f"({title_prefix}{count_day} days passed since start! (D+{count_day}))\n{title_prefix}시작일로부터 {count_day}일 지났습니다! (D+{count_day})")
         else:
             if include_first_day:
                 d_day = total_days
-                self.result_label.setText(f"{title_prefix}총 {d_day}일 남았습니다!\n({title_prefix}Total {d_day} days remaining!)")
+                self.result_label.setText(f"({title_prefix}Total {d_day} days remaining!)\n{title_prefix}총 {d_day}일 남았습니다!")
             else:
                 d_day = total_days - 1
                 if d_day == 0:
-                    self.result_label.setText(f"{title_prefix}오늘이 바로 D-Day입니다!\n({title_prefix}Today is the D-Day!)")
+                    self.result_label.setText(f"({title_prefix}Today is the D-Day!)\n{title_prefix}오늘이 바로 D-Day입니다!")
                 else:
-                    self.result_label.setText(f"{title_prefix}D-{d_day}일 남았습니다.\n({title_prefix}{d_day} days left.)")
+                    self.result_label.setText(f"({title_prefix}{d_day} days left.)\n{title_prefix}D-{d_day}일 남았습니다.")
 
 # Application execution entry point (파이썬 애플리케이션 실행 진입점)
 if __name__ == '__main__':
