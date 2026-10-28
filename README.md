@@ -21,3 +21,6 @@ I am incredibly excited to officially share my GUI-based D-Day Calculator with t
 
 ### 2. For Developers (Source Code Execution)
 1. **[👉 edit code 👈](https://github.dev/loveisworld732-del/advanced-d-day-calculator/blob/main/main.py)** Click here to edit the code!
+
+---
+🎈 *This project was built with passion by a 14-year-old developer from South Korea. If you want to support my coding journey, please leave a ⭐ Star! Thank you!*
